@@ -1,10 +1,10 @@
 /* your code */
 table{
 	border-radius: 20px;
-	background-color:red;
-	border-collapse:collapse
-/* 	width:45rem; */
-/* 	height:18rem; */
+/* 	background-color:red; */
+	border-collapse:collapse;
+	font-family: 'Asap', sans-serif;
+
 }
 table tr th, td{
 /* 	border: 1px solid black; */
@@ -15,9 +15,11 @@ table tr th, td{
 	border-collapse:collapse;
 }
 th{
-/* 	color:blue; */
-	background-color:purple;
-/* 	border-top-left-radius: 30px; */
+	background-color:midnightblue;
+    color:white;
+	text-transform: uppercase;
+	letter-spacing:1px;
+	
 }
 #top-left-cell{
 	border-top-left-radius:20px;
@@ -25,6 +27,20 @@ th{
 #top-right-cell{
 	border-top-right-radius:20px;
 }
+#bottom-right-cell{
+	border-bottom-right-radius:20px;
+}
+#bottom-left-cell{
+	border-bottom-left-radius:20px;
+}
+tr:nth-child(even){
+	background-color:lightsteelblue;
+}
+
+ table tr td{
+ font-style:bold;
+}
+
 
 
 
