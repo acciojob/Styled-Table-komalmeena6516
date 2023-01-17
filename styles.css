@@ -1,1 +1,35 @@
 /* your code */
+table{
+	border-radius: 20px;
+	background-color:red;
+	border-collapse:collapse
+/* 	width:45rem; */
+/* 	height:18rem; */
+}
+table tr th, td{
+/* 	border: 1px solid black; */
+	text-align:left;
+	padding-left:20px;
+	width: 150px;
+	height: 55px;
+	border-collapse:collapse;
+}
+th{
+/* 	color:blue; */
+	background-color:purple;
+/* 	border-top-left-radius: 30px; */
+}
+#top-left-cell{
+	border-top-left-radius:20px;
+}
+#top-right-cell{
+	border-top-right-radius:20px;
+}
+
+
+
+
+
+
+
+
